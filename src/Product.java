@@ -45,7 +45,6 @@ public class Product {
             this.productCode = productCode;
         }
     }
-
     public void setProductName(String productName) {
         if (productName != null){
             if (productName.length() <= 20) {
