@@ -39,7 +39,6 @@ public class Product {
     public boolean isInCurrentProductLine() {
         return inCurrentProductLine;
     }
-
     public void setProductCode(int productCode) {
         if ((productCode >= 1000) && (productCode <= 5000)) {
             this.productCode = productCode;
