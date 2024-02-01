@@ -51,7 +51,6 @@ public class Product {
             }
         }
     }
-
     public void setUnitCost(double unitCost) {
         if ((unitCost > 0) && (unitCost <= 99999)) {
             this.unitCost = unitCost;
